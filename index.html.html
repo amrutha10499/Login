@@ -1,0 +1,70 @@
+<!doctype html>
+    <html style="background-image: url(B2C.jpg);background-size: 100%;">
+    
+     <head>
+        <link rel="stylesheet" href="logreg.css">
+        <title> Registration Form </title>
+        <style>
+          
+                }
+                table{
+                
+                    position:absolute;
+                    left: 900px;
+                    top: 100px;
+                }
+                a{
+                    position: absolute;
+                    right: 50px;
+                    top: 40px;
+                }
+        
+                label{
+                    color:blueviolet;
+                    font-size:20px;
+                }
+                form{
+                     position: absolute;
+                     top: 30%;
+                     right: 10%;
+                     padding: 50px;
+                }
+                input{
+                    border-top: none;
+                    border-left: none;
+                    border-right: none;
+                    width: 100%;
+                    background-color: transparent;
+                }
+                button{
+                    width: 30%;
+                    padding: 0 5px 0 5px;
+                    margin-left: 20px;
+                    border-radius: 10px;
+                }
+             </style>
+             <script type="text/javascript" src="func.js">
+
+            </script>
+     </head >
+   <body>
+   <header><h2>B2C ebuiz</h2>
+    <a href="#">Signup</a>
+   </header>
+   <p id="resp" style="margin-top: 5cm;margin-left: 25cm;color: red;"></p>    
+    <form> 
+      
+    <label><b>UserName </b></label><br><br>
+    <input UserName="Enter_valid_UserName" type="text" placeholder="Enter valid UserName" id="uName"><br><br>       
+    <label><b> password </b></label><br><br> 
+    <input Password="Enter_valid_password" type="text" placeholder="Enter valid password" id="pass"><br><br>     
+    
+    <button type="button" onclick="validateLogIn()" value="login" >login</button>
+    <button  type="reset">clear</button>
+</form>
+
+<footer>
+   <center> @copyright  2021 reserved</center>
+   </footer>
+   </body>
+</html>

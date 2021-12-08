@@ -1,0 +1,20 @@
+function validateLogIn(){
+    var UserName=document.getElementById("uName").value;
+      var pass=document.getElementById("pass").value
+
+      if(userName!=""){
+          if(userName.length<=6){
+              document.getElementById("resp").innerHTML="Give valid userName";
+               }
+               else if(pass!=" "){
+                    document.getElementById("resp").innerHTML="login success";
+               }else{
+                    document.getElementById("resp").innerHTML="password is empty";
+               }
+            }
+            else{
+                document.getElementById("resp").innerHTML="userName is empty";
+            }
+        }
+
+    
